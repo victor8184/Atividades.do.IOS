@@ -21,13 +21,42 @@ let = funcionarios = [
     }
 ]
 
-funcionarios.forEach((funcionarios) => {
-        console.log(`Nome do funcioraio: ${funcionarios.nome}`);
-        console.log(`Seu salario é de: R$${funcionarios.salario},00`);
-    });
-
-
-let newArray = funcionarios.map((funcionario) => {
-   
+let informacoesFuncionarios = funcionarios.forEach((funcionario) => {
+    console.log(funcionario.nome);
+    console.log(funcionario.salario);
 });
-console.log(newArray); 
+
+//Dissídio dos salários
+let novosSalarios = funcionarios.map((ajustes) => {
+   return ajustes.salario * 1.05;
+});
+console.log(novosSalarios);
+
+//filtragem dos que ficaram acima de 5mil
+let filtroDosSuperiores = novosSalarios.filter((superiores) => {
+    return superiores >= 5000;
+});
+console.log(filtroDosSuperiores);
+
+//ver se wally ficou acima de 5mil
+let = funcionariosCaros = [
+    {
+        nome: 'Daniel',
+        salario: '7980'
+    },
+    {
+        nome: 'Wally',
+        salario: '5040'
+    },
+   
+    {
+        nome: 'Claudinei',
+        salario: '5197.5'
+    }
+]
+let findWally = funcionariosCaros.find((encontrar) => {
+    return encontrar.nome === 'Wally';
+})
+console.log(findWally);
+
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    <title>Dom 05</title>
+
+</head>
+
+<body>
+    <header>
+        <h1>Lista de produtos </h1>
+    </header>
+    <main>
+        <section>
+            <var class="adicionarItem">
+                <div class="mb-3 boxItem">
+                    <label for="item" class="form-label">Item: </label>
+                    <input type="text" class="form-control" id="item"
+                        placeholder="Digite o nome do produto que deseja adicionar">
+                </div>
+                <div class="mb-3 boxQtde">
+                    <label for="quantidade" class="form-label">Quantidade: </label>
+                    <input type="number" class="form-control" id="quantidade"
+                        placeholder="Informe a quantidade que deseja adicionar">
+                </div>
+                <div class="mb-3 boxValor">
+                    <label for="valor" class="form-label">Valor: </label>
+                    <input type="text" class="form-control" id="valor" placeholder="Informe o valor do produto">
+                </div>
+                <button type="submit">adicionar</button>
+            </var>
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item">1</li>
+                <li class="list-group-item">Arroz</li>
+                <li class="list-group-item">18,00</li>
+                <li>
+                    <button class="btn btn-success btn-sm float-end inserir">+</button>
+                    <button class="btn btn-primary btn-sm float-end subtrair">-</button>
+                    <button class="btn btn-danger btn-sm float-end deletar">X</button>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="dom05.js"></script>
+</body>
+
+</html>
