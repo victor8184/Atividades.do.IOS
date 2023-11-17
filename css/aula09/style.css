@@ -1,0 +1,37 @@
+:root{
+    background-color: rgb(4, 4, 65);
+    color: white;
+}
+p::first-line{
+    color: yellow;
+}
+
+.lista li:first-child{
+    background-color: rgb(12, 17, 97);
+    
+}
+.lista li:nth-child(3){
+    color: greenyellow;
+}
+.lista li:last-child{
+    background-color: rgb(39, 39, 107);
+}
+
+li::first-letter {
+    font-size: 200%;
+    color:  rgb(236, 236, 4);
+}
+
+li::after {
+    content: 'para ler mais ';
+    font-weight: bold;
+}
+a:active{
+    color: aquamarine;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: aliceblue;
+}

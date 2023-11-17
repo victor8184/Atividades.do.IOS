@@ -1,0 +1,110 @@
+
+.container01{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+.c1{
+    background-color: antiquewhite;
+    grid-column: 1/4;
+}
+.c2{
+    background-color: aqua;
+    grid-column: 1/2;
+}
+.c3{
+    background-color: aquamarine;
+    grid-column: 3/4;
+}
+.c4{
+    background-color: beige;
+    grid-column: 1/4;
+}
+/* aqui acaba o grip template*/
+
+.container02{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    row-gap: 5px;
+    column-gap: 20px;
+    color: white;
+}
+.cx{
+    background-color: brown;
+}
+/* aqui acaba o gap */
+.container03{
+    background-color: rgb(84, 84, 211);
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 5px;
+}
+.jus{
+    background-color: rgb(226, 218, 107);
+}
+/* aqui acaba o justify-items */
+
+.container04{
+    background-color: rgb(84, 84, 211);
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    align-items: center;
+}
+.ali{
+    background-color: rgb(226, 218, 107);
+}
+/* aqui acaba o align-items */
+
+#container05{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    background-color: rgb(84, 84, 211);
+    justify-content: space-between;
+    row-gap: 5px;
+}
+.jcontent{
+    background-color: rgb(226, 218, 107);
+}
+
+/* aqui termina o justify-content */
+
+#container06{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 50px 50px;
+    background-color: rgb(84, 84, 211);
+    align-content: space-between;
+    height: 200px;
+}
+.acontent{
+    background-color: rgb(226, 218, 107);
+}
+/* aqui termina o align-content */
+
+#container07{
+    display: grid;
+    height: 200px;
+    width: 300px;
+}
+#caixa1{ 
+    background-color: peru;
+    grid-row: 2/4;
+    grid-column: 4/4;
+}
+#caixa2{
+    background-color: aqua;
+    grid-row: 4/4;
+    grid-column: 1/4;
+}
+#caixa3{
+    background-color: aquamarine;
+    grid-row: 2/4;
+    grid-column: 1/4;
+}

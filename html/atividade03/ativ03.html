@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 03</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+
+<body>
+    <header>
+        <h1>Formulário</h1>
+        <h2>complete</h2>
+    </header>
+    <main>
+        <br><br>
+        <section>
+            <form method="POST"></form>
+            <label for="anome">Nome:</label>
+            <input type="text" name="nome" id="anome" placeholder="Digite seu nome" required="required">
+            <label for="asobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="asobrenome" placeholder="Digite seu sobrenome">
+            <br><br>
+            <p>Seu gênero:</p>
+            <input type="radio" name="masc" id="amasc" value="M">
+            <label for="amasc">Masculino</label>
+            <input type="radio" name="fem" id="afem" value="F">
+            <label for="afem">Feminino</label>
+            <br><br>
+
+            <p>Estilos musicais preferidos:</p>
+            <input type="checkbox" name="Funk" id="afunk">
+            <label for="afunk">Funk</label> <br>
+            <input type="checkbox" name="rock" id="arock">
+            <label for="arock">Rock</label> <br>
+            <input type="checkbox" name="rap" id="arap">
+            <label for="arap">Rap</label> <br>
+            <input type="checkbox" name="sertanejo" id="asertanejo">
+            <label for="asertanejo">Sertanejo</label> <br>
+            <input type="checkbox" name="pop" id="apop">
+            <label for="apop">Pop</label> <br>
+            <input type="checkbox" name="mpb" id="ampb">
+            <label for="ampb">MPB</label> <br>
+            <br>
+
+            <label for="acor" required>Sua cor favorita:</label>
+            <select name="cor" id="acor">
+                <option value="azul">Azul</option>
+                <option value="vermelho">Vermelho</option>
+                <option value="preto">Preto</option>
+                <option value="branco">Branco</option>
+                <option value="roxo">Roxo</option>
+                <option value="rosa">Rosa</option>
+                <option value="marrom">Marrom</option>
+            </select>
+            <br><br>
+
+            <label for="uni">Unidade do IOS mais próxima:</label>
+            <input list="unidade" name="uni" id="uni">
+            <datalist id="unidade">
+                <option value="santana">Santana</option>
+                <option value="itaquera">Itaquera</option>
+                <option value="jardim_angela">Jardim Ângela</option>
+                <option value="santo_amaro">Santo Amaro</option>
+                <option value="diadema">Diadema</option>
+                <option value="hortolandia">Hortolândia</option>
+                <option value="barueri">Barueri</option>
+                <option value="rj">Rio de Janeiro 01</option>
+                <option value="rio">Rio de Janeiro 02</option>
+                <option value="bh">Belo Horizonte 01</option>
+                <option value="belo">Belo Horizonte 02</option>
+                <option value="recife">Recife</option>
+                <option value="curitiba">Curitiba</option>
+                <option value="porto_alegre">Porto Alegre</option>
+            </datalist>
+            <br><br>
+
+            <p>Observações</p>
+            <textarea name="obs" id="aobs" cols="50" rows="10" placeholder="Digite alguma inforção extra"></textarea>
+            <br><br>
+
+            <button type="submit">enviar</button>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

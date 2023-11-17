@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body{
+    background-color: #53e8f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 110%;
+}
+h1{
+    color: #8a2be2;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 3px #59149b;
+}
+
+dt{
+    font-style: italic;
+}
+
+dd{
+    text-indent: 4%;
+    text-align: justify;
+}
+
+#procura{
+    color: #fff;
+}
+#toy{
+    color: rgb(138, 43, 226);
+}
+
+#inter{
+    color: hsl(100,100%,100%);
+}
+
+#odio{ 
+    color: rgb(138, 43, 226);
+}
+ 
+#karate{
+    color: white
+}

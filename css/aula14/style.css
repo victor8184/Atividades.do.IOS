@@ -1,0 +1,98 @@
+#container1 {
+    background-color: rgb(99, 99, 199);
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    width: 150px;
+    height: 150px;
+}
+
+#caixa1 {
+    background-color: peru;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+/* aqui acaba a start/end */
+
+#container2{
+    background-color: rgb(99, 99, 199);
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(3, 50px);
+    height: 200px;
+    width: 200px;
+}
+
+#caixa2{
+    background-color: peru;
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+/* aqui termina o as abreviações */
+
+#container3{
+background-color: rgb(99, 99, 199);
+display: grid;
+grid-template-columns: repeat(4, 50px);
+grid-template-rows: repeat(4, 50px);
+height: 200px;
+width: 200px;
+}
+
+#caixa3{
+background-color: peru;
+grid-area: 2 / 2 / 3 / 5;
+}
+/* aqui termina o grid area */
+
+#container4{
+    background-color: rgb(99, 99, 199);
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    height: 250px;
+    width: 250px;
+}
+#caixa4{
+    background-color: peru;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    justify-self: start;
+}
+/* aqui termina o justify self */
+
+#container5{
+    background-color: rgb(99, 99, 199);
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    height: 250px;
+    width: 250px;
+}
+#caixa5{
+    background-color: peru;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    align-self: start;
+}
+/* aqui termina o align self */
+
+#container6{
+    background-color: rgb(99, 99, 199);
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    height: 250px;
+    width: 250px;
+}
+#caixa6{
+    background-color: peru;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    align-self: center;
+    justify-self: start;
+}
+
+
